@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid bg-dark p-3">
+        <a class="navbar-brand ms-5 fs-3 text-light" href="#">Ecommerce</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navitem navbar-nav me-auto ms-5 mb-2 mb-lg-0 fs-5">
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="product text-light">
+              <a href="#" class="nav-link text-light">Product</a>
+              <div class="category">
+                <a href="#">Samsung</a>
+                <a href="#">Apple</a>
+                <a href="#">Redmi</a>
+                <a href="#">Nokia</a>
+                <a href="#">Realme</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">About us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success me-3" type="submit">
+              Search
+            </button>
+          
+          </form>
+          <form class="d-flex" role="search" action="login.html">
+          
+            <button class="btn btn-primary me-3" type="submit">
+              login
+            </button>
+          
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide m-auto"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/dell_image1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/image3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/image4.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="header mx-auto text-center fs-1 mt-5 fw-bold">Products</div>
+    <div class="container mt-3">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-4">
+          <div class="card" >
+            <img src="images/dell_image1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Dell G15</h5>
+              <p class="card-text">
+                Dell G15- i7-11800H/16GB RAM/512GB SSD/15.6″ Full HD 165Hz/NVIDIA® GeForce® RTX 3060 with 6GB/Windows 11 Home
+              </p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+            <img src="images/image2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lenevo</h5>
+              <p class="card-text">
+                lenovo IdeaPad Gaming 3 15ARH7 AMD Ryzen5-6600H/8GB RAM/256GB SSD/15.6″ /NVIDIA® GeForce® RTX 3050 4GB/Windows 11 Home
+              </p>
+              <a href="#" class="btn btn-primary"> Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" >
+            <img src="images/image3.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">MSI GF65</h5>
+              <p class="card-text">
+                MSI GF65 THIN GAMING i5-10500H 10th Gen/8GB RAM/512GB SSD/15.6″ Full HD IPS 144Hz/NVIDIA® GeForce® RTX 3060 6G/Windows 10 Home
+              </p>
+              <a href="#" class="btn btn-primary"> Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
